@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Generator by : DIVAKAR RAJPUT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>QR Code Generator </h1>
+      <p>Paste a url or enter text to create QR code</p>
+    </header>
+    <div class="form" method="post">
+      <input id="userInput" name="text" type="text" spellcheck="false" placeholder="Enter text or url">
+      <input id="button" class="submit" type="submit" value="Generate QR Code">
+      <p style="font-size: 13px; margin-top: 10px;">Crafted by : DIVAKAR RAJPUT</p>
+      <p id="error" style="color: red;"></p>
+    </div>
+    <div class="qr-code">
+      <img id="image" src="" alt="qr-code">
+    </div>    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
